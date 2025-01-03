@@ -1,1 +1,1 @@
-# my-portfolio
+This portfolio showcases my skills in web development, particularly in HTML, CSS and Technical Skills like Python, MySQL, DSA, Machine Learning. Explore my projects, learn about my experience, and get in touch!
