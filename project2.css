@@ -1,0 +1,10 @@
+body{
+    
+    background-color: rgb(81, 214, 255);
+    background-image: url('project2.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+h1{
+    background-color: rgb(244, 244, 244);
+}

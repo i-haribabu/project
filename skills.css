@@ -1,0 +1,22 @@
+body{
+    background-image: url('skills.jpg');
+    height: 50vh;
+    width: 50vh; 
+    margin: 0; 
+}
+form { 
+    width: 300px; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    display: flex; 
+    flex-direction: column; 
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+button:hover {
+     background-color: #59d6b0; 
+    }
+#cseImg:target { display: block; }

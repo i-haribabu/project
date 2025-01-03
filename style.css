@@ -1,0 +1,8 @@
+body{
+    background-image: url('IMG_20240509_175831.jpg');
+    background-size: cover; /* or 'contain' depending on your preference */ 
+    background-position: center;
+}
+button:hover {
+    background-color: violet; 
+   }
