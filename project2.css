@@ -2,6 +2,7 @@ body{
     background-image: url('project2.jpg');
     background-position: right;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     background-color: rgb(244, 244, 244);

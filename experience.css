@@ -1,5 +1,6 @@
 body{
     background-image: url('Internship.jpg');
     background-position: right;
+    background-size: cover;
 }
 
