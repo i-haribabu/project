@@ -65,23 +65,31 @@ button:hover {
     color: #007bff;
 }
 
-/* Footer */
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-}
-
-.footer a {
-    color: #007bff;
-    margin: 0 10px;
-}
-
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #f9f9f9, #e0e0e0);
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    width: 90%;
+}
+
+.hero img {
+    width: 180px; /* Profile image size */
+    height: 180px;
+    border-radius: 50%;
+    margin-right: 30px; /* Reduce space between image & text */
+}
+
+.hero-text {
+    flex: 1; /* Makes text take remaining space */
 }
 
 .hero h1 {
@@ -92,6 +100,22 @@ button:hover {
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;
+}
+
+/* Responsive Fix for Mobile */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero img {
+        margin: 0 0 20px 0; /* Center the image */
+    }
 }
 
 /* Card Styles */
@@ -106,4 +130,18 @@ button:hover {
 
 .card:hover {
     transform: translateY(-10px);
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #007bff;
+    margin: 0 10px;
 }
