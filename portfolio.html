@@ -8,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navigation Bar -->
+    <!-- Fixed Navigation Bar -->
     <nav class="navbar">
         <ul>
+            <li><a href="portfolio.html">Home</a></li>
             <li><a href="About.html">About</a></li>
             <li><a href="Education.html">Education</a></li>
             <li><a href="Skills.html">Skills</a></li>
@@ -21,14 +22,15 @@
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="container" style="display: flex; align-items: center; gap: 40px;">
-            <!-- Add your photo here -->
-            <img src="portfolio_pic.jpg" alt="Hari Babu Ippili" style="width: 250px; height: 250px; border-radius: 50%; object-fit: cover; object-position: top;">
-            <div>
-                <h1 style="white-space: nowrap;">Welcome to Hari Babu Ippili's Portfolio</h1>
-                <p>Explore my journey, skills, and projects in the world of technology.</p>
-                <a href="About.html"><button>Learn More</button></a>
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <img src="portfolio_pic.jpg" alt="Hari Babu Ippili" class="profile-img">
+                <div class="hero-text">
+                    <h1>Welcome to Hari Babu Ippili's Portfolio</h1>
+                    <p>Explore my journey, skills, and projects in the world of technology.</p>
+                    <a href="About.html" class="btn">Learn More</a>
+                </div>
             </div>
         </div>
     </section>
